@@ -1,0 +1,8 @@
+Modified Parts
+cmd/controller-manager/app/controllermanager.go 
+pkg/controllers/applicationfailover/rb_application_failover_controller.go
+
+New Added Parts
+pkg/controllers/pvsync/pvcleanup_controller.go
+pkg/controllers/pvsync/pvmigration_controller.go
+pkg/controllers/pvsync/pvsync_controller.go
