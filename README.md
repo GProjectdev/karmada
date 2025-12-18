@@ -243,6 +243,7 @@ Karmada is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for det
 
 ## For use PVMigration System
 Change karmada-controller-manager(use jeongseungjun/custom-karmada-controller-manager:failover-v3)
+
 Karmada controller manager is static pod so you have to delete previous Pod
 ```
 kubectl edit -n karmada-system <karmada-controller-manager name>
